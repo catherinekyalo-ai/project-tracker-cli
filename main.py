@@ -3,8 +3,7 @@ import logging
 import os
 import sys
 
-from rich.console import Console
-from rich.table import Table
+from utils.display import Console, Table
 
 from models.project import Project
 from models.user import User
